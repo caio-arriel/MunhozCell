@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+    text-align: justify;
+}
+
+.header{
+    overflow: hidden;
+    background-color:  #151d30;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.top-bar{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.logo{
+    float: left;
+    margin-right: 15px;
+}
+
+#img-logo{
+    width: 200px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.li-menu{
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container{
+    max-width: 1300px;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid #151d30;
+    box-shadow: 10px 10px 10px 10px #151d30;
+}
+
+
+b{
+    text-transform: uppercase;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+#img-loja{
+    width: 500px;
+    float: right;
+    margin-left: 5px;
+    border: 2px solid #151d30;
+}
+
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+    Display: inline-block;
+}
+
+#img-services{
+    max-width: 1300px;
+    margin: auto;
+    border: 2px solid #151d30;
+}
+
+#img-products{
+    max-width: 1300px;
+    margin: auto;
+    border: 2px solid #151d30;
+}
+
+
+.footer{
+    background-color: #151d30;
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 1100px) {
+    #img-loja{
+        float: none;
+        width: 310px;    
+        margin-left: 10px;
+        margin-bottom: 0;
+        margin-left: 0px;
+    }
+
+    #img-services{
+        max-width: 900px;
+    }
+    
+    #img-products{
+        max-width: 900px;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .logo{
+        float: none;
+        text-align: center;
+    }
+
+    .menu{
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+
+    li{
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+    
+    #img-services{
+        max-width: 700px;
+    }
+    
+    #img-products{
+        max-width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+            
+    #img-services{
+        max-width: 320px;
+    }
+    
+    #img-products{
+        max-width: 320px;
+    }
+
+}
